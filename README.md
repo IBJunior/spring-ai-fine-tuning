@@ -144,3 +144,29 @@ public class FineTuningDataCreator {
 }
 
 ````
+
+## Fine-Tuning sur OpenAI
+
+Pour faire le fine-tuning sur OpenAI, on a deux choix, soit le faire par code ou en utilisant le dashboard web.
+Pour cet exemple, j'ai utilisé le dashboard.
+
+### Choix du modèle et upload du fichier jsonl
+
+Pour cet exemple, ça sera le fichier `src/main/resources/jsons/fly-intelligent-fine-tuning-data.jsonl` et le modèle sera
+gpt-4o-mini.
+En fait, vous pouvez choisir n'importe quel modèle. Il faut juste qu'il soit différent du modèle utilisé pour la génération
+des données. Sinon la performance risque de ne pas être au rendez-vous.
+![fine-tuning-1.PNG](src/main/resources/images/fine-tuning-1.PNG)
+
+### Test du modèle sur le playground
+
+Après l'upload et le choix du modèle, suivez les instructions jusqu'au lancement du fine-tuning. Une fois que c'est
+terminé, vous recevrez une notification.
+Vous pouvez alors tester le nouveau modèle sur le playground. Comme suit :
+![fine-tuning-2.PNG](src/main/resources/images/fine-tuning-2.PNG)
+
+## Contact
+
+Si vous avez des questions spécifiques, n'hésitez pas à me contacter
+sur [LinkedIn](https://www.linkedin.com/in/ali-ibrahim-junior/).
+
